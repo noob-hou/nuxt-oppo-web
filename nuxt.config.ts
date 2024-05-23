@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: houxin
  * @Date: 2024-05-16 14:25:00
- * @LastEditTime: 2024-05-16 16:51:32
+ * @LastEditTime: 2024-05-23 16:09:08
  * @LastEditors: houxin
  * @Reference:  
  */
@@ -42,5 +42,8 @@ export default defineNuxtConfig({
       noscript: [{ children: 'Javascript is required' }]
     }
   },
-  devtools: { enabled: true }
+
+  devtools: { enabled: true },
+  //配置nuxt3扩展模块
+  modules: ['@pinia/nuxt']
 })
